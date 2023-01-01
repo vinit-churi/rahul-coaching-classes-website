@@ -430,6 +430,7 @@ nav{
   width: 15px;
   background-color: #ffffff99;
   border-radius: 50%;
+  cursor: pointer;
   
   /* background-color: rgba(255, 255, 255, 0.384); */
 }
@@ -438,12 +439,20 @@ nav{
   display: flex;
   width: 70px;
   justify-content: space-between;
-  bottom: 10px;
+  bottom: 20px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   z-index: 1;
+  align-items: center;
+}
+.gallery .imgs-container .dots-container .dot:first-child{
+  background-color: rgb(247, 37, 79);
+  height: 10px;
+  width: 10px;
+  border: 3px solid #ffffffd4;
+  box-sizing: content-box;
 }
 .gallery .imgs-container::before{
   font-family: "Font Awesome 5 Free"; 
@@ -464,6 +473,7 @@ nav{
   align-items: center;
   z-index: 1;
   border: 2px solid red;
+  cursor: pointer;
 }
 .gallery .imgs-container::after{
   height: 50px;
@@ -485,6 +495,7 @@ nav{
   right: 15px;
   border: 2px solid red;
   z-index: 1;
+  cursor: pointer;
 }
 .gallery .imgs-container .img-container{
   width: 33.33%;

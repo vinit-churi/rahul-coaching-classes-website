@@ -494,7 +494,8 @@ nav{
 }
 .gallery .imgs-container img{
   height: 100%;
-  width: auto;
+  width: 100%;
+  object-fit: cover;
 }
 .gallery .imgs-container .img-container::after{
   content: "";
@@ -503,7 +504,7 @@ nav{
   right: 0;
   bottom:0;
   left: 0;
-  background-color: #001d3d30;
+  background-color: #001d3d54;
 }
 /* available font colors */
 .color-viewer{

@@ -568,6 +568,12 @@ nav{
   border-radius: 5px;
   outline: none;
 }
+.contact .right .input-group-one input:focus{
+  border: 2px solid rgb(0, 0, 0);
+}
+.contact .right .input-group-two input:focus{
+  border: 2px solid rgb(0, 0, 1);
+}
 .contact .right .input-group-two textarea{
   padding: 10px;
   resize: vertical;

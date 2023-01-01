@@ -570,6 +570,8 @@ nav{
 }
 .contact .right .input-group-two textarea{
   padding: 10px;
+  resize: vertical;
+  border: 1px solid #8080808f;
 
 }
 
@@ -577,12 +579,11 @@ nav{
   width: max-content;
   padding: 10px 15px;
   margin: 15px 0px;
-  border: 1px solid #8080808f;
+  border: none;
   color: white;
   background-color: crimson;
   outline:none;
   cursor: pointer;
-  resize: vertical;
 }
 
 footer{

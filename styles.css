@@ -506,6 +506,92 @@ nav{
   left: 0;
   background-color: #001d3d54;
 }
+
+.contact{
+  
+}
+.contact .two-columns{
+  display: flex;
+  width: 85%;
+  margin: 60px auto;
+}
+.contact .two-columns .left{
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.contact .two-columns .right{
+  flex: 1 1 40%;
+}
+
+.contact .phone,
+.contact .address,
+.contact .email{
+  display: flex;
+  gap: 20px;
+}
+.contact i{
+  position: relative;
+  font-size: 25px;
+  color: crimson;
+  top: 5px;
+}
+.contact .bold{
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+}
+
+.contact .right .input-group-one{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.contact .right .input-group-one input{
+  flex: 1 1 48%;
+  height: 40px;
+    border: 1px solid #8080808f;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.contact .right .input-group-two{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact .right .input-group-two input{
+  height: 40px;
+  border: 1px solid #8080808f;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.contact .right .input-group-two textarea{
+  padding: 10px;
+
+}
+
+.contact .right .input-group-two button[type="submit"]{
+  width: max-content;
+  padding: 10px 15px;
+  margin: 15px 0px;
+  border: 1px solid #8080808f;
+  color: white;
+  background-color: crimson;
+  outline:none;
+  cursor: pointer;
+  resize: vertical;
+}
+
+footer{
+  position: static;
+  background-color: #202B59;
+  height: 250px;
+  width: 100%;
+  margin-top: 100px;
+}
 /* available font colors */
 .color-viewer{
   color: #001D3D;
